@@ -10,7 +10,7 @@ api_hash = os.getenv('API_HASH')
 async def main():
     users = set()
     async for dialog in client.iter_dialogs():
-        if dialog.name.startswith('{ ek'):
+        if dialog.name.startswith('{eC}'):
             async for participant in client.iter_participants(dialog):
                 users.add(participant.id)
                 print(len(users), end="\r")
