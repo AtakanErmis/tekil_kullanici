@@ -12,4 +12,5 @@ Ekşicode'a üye tekil kullanıcı sayısını ölçmek için yazılmış bir Py
 - `pip3 install -r requirements.txt`
 - `cp sample.env .env`
 - .env dosyasına my.telegram.org'dan API token'ı alıp verilen ID ve Hash bilgilerini ekleyin.
+- Tüm gruplardaki kullanıcı sayısını ölçmek için çalıştırmadan önce tüm ekşiCode gruplarına üye olmanız gerekmektedir.
 - `python3 tekil.py`
